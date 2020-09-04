@@ -145,7 +145,7 @@ class Function:
         dr.batteryStopMonitoring()
    
     def wolfram(cmd):
-        key="T7JEE3-8VXU93896P" 
+        key="xxxxxxxxxxxxxxxx" 
         client=wolframalpha.Client(key)
         res=client.query(cmd)
         answer=next(res.results).text
